@@ -1,0 +1,40 @@
+    
+    .colors {
+        background: linear-gradient(25deg, #ff3370, #33ff88, #d3ff33)
+        
+    }
+        h1 {
+            margin:  auto;
+            display: block;
+            position: relative;
+            text-align: center;
+        }
+        body {
+            position: relative;
+        }
+            h2 {
+                margin: auto;
+                position: relative;
+
+            }
+            .goals {
+                position: fixed;
+                top: 15px;
+                left: 15px;
+                
+            }
+            .assist {
+                position: fixed;
+                top: 15px;
+                left: 100px;
+            }
+            a:hover {
+                transform: scale(1.1);
+                color: blue;
+            }
+                a {
+                    color: black;
+                    font-size: 20px;
+                }
+
+            
