@@ -5,12 +5,25 @@
     }
         h1 {
             margin:  auto;
-            display: block;
-            position: relative;
+            position: fixed;
             text-align: center;
+            padding: 10px 175px 10px 175px;
+            margin: 0px 100px 0px 0px; 
+            width: 1150px;
+            border-radius: 10px; 
         }
         body {
             position: relative;
+            background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+            
         }
             h2 {
                 margin: auto;
@@ -19,7 +32,7 @@
             }
             .goals {
                 position: fixed;
-                top: 10px;
+                top: 20px;
                 left: 75px;
                 font-size: 30px;
                 
@@ -36,7 +49,7 @@
                 }
                     #hits {
                         position: fixed;
-                        top:10px;
+                        top:20px;
                         left: 450px;
                         font-size: 30px;
                         
@@ -44,7 +57,7 @@
                     }
                         #blocked-shots {
                             position: fixed;
-                            top: 10px;
+                            top: 20px;
                             left: 1000px;
                             text-transform: capitalize;
                             font-size: 30px;
@@ -53,8 +66,75 @@
                                 position: fixed;
                                 font-size: 30px;
                                 left: 1300px;
-                                top: 10px;
+                                top: 20px;
                                 text-transform: capitalize;
                             }
+                            .coach-quotes {
+                                font-size: 20px;
+                                font-family: monospace;
+                                background: rgba(255, 255, 255, 0.2);
+                                position: relative;
+                                bottom: 0px;
+                                float: left;
+                                margin: 1000px 50px 15px 50px;
+                                padding: 20px 20px 20px 20px;
+                                width: 300px;
+                                
+                                
+                            }
+                                .coach-quotes1 {
+                                    font-size: 20px;
+                                font-family: monospace;
+                                background: rgba(255, 255, 255, 0.2);
+                                position: relative;
+                                bottom: 0px;
+                                float: left;
+                                margin: 1000px 50px 15px 130px;
+                                padding: 20px 20px 20px 20px;
+                                width: 300px;
+                                
+                                }
+                                    .coach-quotes2 {
+                                        font-size: 20px;
+                                font-family: monospace;
+                                background: rgba(255, 255, 255, 0.2);
+                                position: relative;
+                                bottom: 0px;
+                                float: left;
+                                margin: 1000px 50px 150px 125px;
+                                padding: 20px 20px 20px 20px;
+                                width: 300px;
+                                
+                                    }
+                                    .coach-quotes3 {
+                                        font-size: 20px;
+                                font-family: monospace;
+                                color: white;
+                                position: relative;
+                                bottom: 0px;
+                                float: left;
+                                margin: 500px 50px 150px 125px;
+                                padding: 20px 20px 20px 20px;
+                                width: 300px;
+                                    }
+                                        .image {
+                                            width: 500px;
+                                            height: 500px;
+                                            display: block;
+                                            position: absolute;
+                                            top: 100px;
+                                            left: 500px;
+
+                                        }
+                                            .quote-border {
+                                                border-color: white;
+                                                border-width: 10px;
+                                                border-style: solid;
+                                                border-radius: 10px;
+                                                opacity: 0.5;
+
+                                            }
+                                            
+                                                
 
             
