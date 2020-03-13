@@ -19,15 +19,13 @@
             }
             .goals {
                 position: fixed;
-                top: 15px;
-                left: 15px;
+                top: 10px;
+                left: 75px;
+                font-size: 30px;
                 
             }
-            .assist {
-                position: fixed;
-                top: 15px;
-                left: 100px;
-            }
+            
+            
             a:hover {
                 transform: scale(1.1);
                 color: blue;
@@ -35,6 +33,28 @@
                 a {
                     color: black;
                     font-size: 20px;
-                } 
+                }
+                    #hits {
+                        position: fixed;
+                        top:10px;
+                        left: 450px;
+                        font-size: 30px;
+                        
+
+                    }
+                        #blocked-shots {
+                            position: fixed;
+                            top: 10px;
+                            left: 1000px;
+                            text-transform: capitalize;
+                            font-size: 30px;
+                        }
+                            #backchecking {
+                                position: fixed;
+                                font-size: 30px;
+                                left: 1300px;
+                                top: 10px;
+                                text-transform: capitalize;
+                            }
 
             
