@@ -35,6 +35,7 @@ background-size: 20px 20px;
                 top: 20px;
                 left: 75px;
                 font-size: 30px;
+                font-family: monospace;
                 
             }
             
@@ -52,6 +53,7 @@ background-size: 20px 20px;
                         top:20px;
                         left: 450px;
                         font-size: 30px;
+                        font-family: monospace;
                         
 
                     }
@@ -61,6 +63,7 @@ background-size: 20px 20px;
                             left: 1000px;
                             text-transform: capitalize;
                             font-size: 30px;
+                            font-family: monospace;
                         }
                             #backchecking {
                                 position: fixed;
@@ -68,6 +71,7 @@ background-size: 20px 20px;
                                 left: 1300px;
                                 top: 20px;
                                 text-transform: capitalize;
+                                font-family: monospace;
                             }
                             .coach-quotes {
                                 font-size: 20px;

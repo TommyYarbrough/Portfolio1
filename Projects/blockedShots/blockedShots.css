@@ -1,0 +1,62 @@
+.colors {
+    background: linear-gradient(45deg, #ff3370, #33ff88, #d3ff33 )
+}
+    body {
+        position: relative;
+        background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+    }
+        h1 {
+            margin:  auto;
+            position: fixed;
+            text-align: center;
+            padding: 10px 175px 10px 175px;
+            margin: 0px 100px 0px 10px; 
+            width: 1150px;
+            border-radius: 10px; 
+        }
+            .main-page {
+                font-size: 30px;
+                font-family: monospace;
+                position: fixed;
+                top: 20px;
+                left: 40px;
+            }
+                .hits {
+                    font-size: 30px;
+                    font-family: monospace;
+                    position: fixed;
+                    top: 20px;
+                    left: 1350px;
+                }
+                    .goals {
+                        font-size: 30px;
+                        font-family: monospace;
+                        position: fixed;
+                        top: 20px;
+                        left: 1000px;
+                    }
+                        .backchecking {
+                            font-size: 30px;
+                            font-family: monospace;
+                            position: fixed;
+                            top: 20px;
+                            left: 350px;
+                        }
+                            a {
+                                color: black;
+                            }
+                                a:hover {
+                                    color: blue;
+                                    transform: scale(1.1);
+                                } 
+
+
+            
