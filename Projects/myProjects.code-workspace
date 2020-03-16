@@ -1,11 +1,12 @@
 {
 	"folders": [
+		
 		{
+			"name": "Portfolio",
 			"path": "C:\\Users\\atomi\\Desktop\\Portfolio"
-		},
-		{
-			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PortFolio"
+	}
 }
