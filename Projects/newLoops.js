@@ -5,4 +5,4 @@ while(i < 15) { // ending of the number placed in () will be -1 for the ending n
   i++; // adding 1.
 }
 
-console.log(myArray) a
+console.log(myArray) aa
