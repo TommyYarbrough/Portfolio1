@@ -27,7 +27,8 @@
         font-size: 26px;
         top:0px;
         left: 30px;
-        margin: 20px
+        margin: 20px;
+        color: black;
 
     }
         .order {
@@ -52,7 +53,8 @@
                 }   
                     a:hover {
                         transform: scale(1.2);
-                        color:blue;
+                        color: blue;
+                        background-color: teal;
                     }
                     .img {
                         width: 50px;
