@@ -1,0 +1,43 @@
+    body { 
+        position: relative;
+        background-color: #ff0004;
+    }
+
+    h1 {
+        position: absolute;
+        margin: auto;
+        padding: 10px 0px 10px 0px;
+        background-color: #ffee03;
+        color: #000303;
+        left: 0px; 
+        top: 0px;
+        right: 0px;
+        font-size: 35px;
+        text-align: center;
+        
+     
+ }
+ .navbar {
+    background-color: white;
+ }
+    .menu {
+        position: absolute;
+        background-color:white;
+        padding: 0px 0px 0px 0px;
+        font-size: 26px;
+        top:0px;
+        left: 30px;
+        margin: 20px
+
+    }
+        .order {
+            background-color: white;
+            position: fixed;
+            left: 300px;
+            top: 10px;
+            font-size: 26px;
+            margin: 20px;
+
+
+        }
+            
