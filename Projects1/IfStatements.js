@@ -35,3 +35,11 @@ function cc(card) {
 }
 /* this program tell you the count and weither you should hold or bet in a blackjack game knowing the 
 relative number of high and low cards*/
+var myDog = {
+  
+    "name": "Fido",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["dogs", "Me"]
+  };
+  
