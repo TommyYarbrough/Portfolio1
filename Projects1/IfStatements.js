@@ -69,9 +69,11 @@ var myDog = {
       "album": "ABBA Gold"
     }
 };
+
 function updateRecords(id, prop, value) {
+  const currentRecord = collection[id]
   if (value === "") {
-    delete collection[id][prop];
+    delete currentRecord[prop];
   } else if (prop === "tracks") {
     collection[id][prop] = collection[id][prop] || [];
     collection[id][prop].push(value);
