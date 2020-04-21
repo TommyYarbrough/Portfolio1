@@ -84,3 +84,24 @@ function updateRecords(id, prop, value) {
   return collection;
 }
 updateRecords(id, prop, value) // this is a function to update a record album 
+
+
+function countup(n) {
+  if (n < 1) {
+    return [];
+  } else {
+    var countArr = countup(n - 1)
+    coountArr.push(n)
+    return countArr;
+  }
+}
+
+
+  function rangeOfNumbers (startNum, endNum)
+if (endNum - startNum === 0) {
+  return [startNum];
+ } else {
+    var range = rangeOfNumbers(startNum, endNum - 1);
+   range.push(endNum);
+   return range;
+ }
