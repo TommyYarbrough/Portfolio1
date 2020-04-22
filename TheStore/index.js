@@ -1,6 +1,30 @@
 var inventory = [
-    {  "Bread" : {
-        "BreadRoll":20,
+    { 
+        
+        
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+]
+function CheckInventory(name, value) {
+    for (var i = 0; i < inventory.length; i++) {
+        return inventory[name][value]
+    }
+}
+"BreadRoll":20,
         "BreadStick":20,
         "Bagel":20,
         "WholeWheat":20,
@@ -10,14 +34,3 @@ var inventory = [
         "Rye Bread":20,
         "Sourdough":20,
         "Baguette":20
-        }
-    },
-    {
-
-    }
-]
-function CheckInventory(name, value) {
-    for (var i = 0; i < inventory.length; i++) {
-        return inventory[name][value]
-    }
-}
