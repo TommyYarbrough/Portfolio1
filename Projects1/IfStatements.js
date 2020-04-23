@@ -104,4 +104,14 @@ if (endNum - startNum === 0) {
     var range = rangeOfNumbers(startNum, endNum - 1);
    range.push(endNum);
    return range;
+
+
+
+
+
  }
+
+
+
+
+  const fist = {first: es6, learning: "more every day",}
