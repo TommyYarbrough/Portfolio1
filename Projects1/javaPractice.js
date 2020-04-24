@@ -115,3 +115,4 @@ if (endNum - startNum === 0) {
 
 
   const fist = {first: es6, learning: "more every day",}
+// spending alot of time learning
